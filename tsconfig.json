@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "outDir": "dist/js",//diertorio de gravacao
+        "target": "ES6",//versao do javascript
+        "noEmitOnError":true,//nao gera js enquanto estiver com erro
+        "noImplicitAny": true,
+        "removeComments": true,
+        "strictNullChecks": true,//valida se o cmpo tem null
+        "experimentalDecorators": true,
+        "sourceMap": true//permite debugar o codigo em typescript, cria um arquivo igual com extensao map que permitee analisar
+    },
+    "include": [
+        "app/**/*"//inclui tudo da pasta
+    ]
+}
